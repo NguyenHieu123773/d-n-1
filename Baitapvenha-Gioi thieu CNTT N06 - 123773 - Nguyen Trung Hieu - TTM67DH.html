@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Khám phá khủng long</title>
+	<style>
+		* { box-sizing: border-box; }
+		body { margin: 0; font-family: system-ui, sans-serif; color: #26382d; background: #f3f6ed; }
+		header { padding: 3rem 1rem; text-align: center; color: white; background: #356b4b; }
+		header h1 { margin: 0 0 .5rem; font-size: clamp(2rem, 6vw, 3.5rem); }
+		main { width: min(950px, 92%); margin: 2rem auto; }
+		.intro { line-height: 1.7; }
+		.dinosaurs { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+		article { padding: 1.25rem; border-radius: 12px; background: white; box-shadow: 0 3px 12px #26382d18; }
+		article h2 { margin-top: 0; color: #356b4b; }
+		article p { line-height: 1.55; }
+		.fact { margin-top: 1.5rem; padding: 1rem; border-left: 5px solid #d9a441; background: #fff8e8; }
+		footer { padding: 1.5rem; text-align: center; color: #536459; }
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Khám phá khủng long</h1>
+		<p>Meet some remarkable animals from the prehistoric world</p>
+	</header>
+	<main>
+		<section class="intro" aria-labelledby="about-heading">
+			<h2 id="about-heading">Khủng long là gì?</h2>
+			<p>Khủng long là một nhóm các loài bò sát đa dạng sống trong thời kỳ Mesozoic, từ khoảng 230 triệu đến 66 triệu năm trước. Hóa thạch giúp các nhà khoa học tìm hiểu về cách chúng trông như thế nào và sống như thế nào. Chim hiện đại là hậu duệ của một nhóm khủng long.</p>
+		</section>
+		<section class="dinosaurs" aria-label="Featured dinosaurs">
+			<article>
+				<h2>Khủng long bạo chúa Tyranosaurus Rex</h2>
+				<p><strong>Thức ăn ưa thích:</strong> Thịt<br><strong>Thời kỳ:</strong> Cuối Kỷ Cretaceous</p>
+				<p>Một loài săn mồi lớn nổi tiếng với cú đớp mạnh mẽ và hai cánh tay có hai ngón.</p>
+			</article>
+			<article>
+				<h2>Tam giác Long</h2>
+				<p><strong>Thức ăn:</strong> Thực vật<br><strong>Thời kỳ:</strong> Cuối Kỷ Cretaceous</p>
+				<p>Một loài khủng long vững chắc, có bốn chân và ba sừng trên mặt và một chiếc vảy lớn.</p>
+			</article>
+			<article>
+				<h2>Khủng long gai lưng</h2>
+				<p><strong>Thức ăn:</strong> Thực vật<br><strong>Thời kỳ:</strong> Cuối Kỷ Jurasic</p>
+				<p>Nhận biết được bởi những tấm vảy lớn dọc theo lưng và những chiếc gai trên đuôi.</p>
+			</article>
+		</section>
+		<aside class="fact"><strong>Bạn có biết?</strong> Từ "khủng long" có nghĩa là "Thằn lằn kinh hoàng," mặc dù khủng long không thực sự là rắn.</aside>
+	</main>
+	<footer>Khám phá hồ sơ hóa thạch và tiếp tục đặt câu hỏi!</footer>
+</body>
+</html>
